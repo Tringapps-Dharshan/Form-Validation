@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 import { } from 'react-router-dom'
 function Form() {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);;
+    const onSubmit = data => console.log(data);
     let details = {
         "firstname": watch("first_name"),
         "lastname": watch('last_name'),
