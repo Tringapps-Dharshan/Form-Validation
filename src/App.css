@@ -1,0 +1,31 @@
+input{
+  padding: 8px 30px;
+  margin: 15px 0;
+  border: none;
+  background-color:palegreen;
+}
+::placeholder{
+  color:black;
+}
+input[type='submit']{
+  padding: 15px 85px;
+  background-color: springgreen;
+  font-size: larger;
+  cursor: pointer;
+}
+input[type='submit']:hover{
+  background-color: rgb(33, 208, 121);
+}
+.App, input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+small{
+  color: #fff;
+  text-align: center;
+}
+.header{
+  text-align: center;
+  color: azure;
+}
